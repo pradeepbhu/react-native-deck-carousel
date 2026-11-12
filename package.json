@@ -1,6 +1,6 @@
 {
   "name": "react-native-vertical-deck-carousel",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Customizable vertical swipe deck carousel for React Native, powered by Reanimated and Gesture Handler.",
   "main": "lib/commonjs/index.js",
   "module": "lib/module/index.js",
