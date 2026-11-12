@@ -1,0 +1,52 @@
+{
+  "name": "react-native-vertical-deck-carousel",
+  "version": "1.0.0",
+  "description": "Customizable vertical swipe deck carousel for React Native, powered by Reanimated and Gesture Handler.",
+  "main": "lib/commonjs/index.js",
+  "module": "lib/module/index.js",
+  "types": "lib/typescript/src/index.d.ts",
+  "react-native": "src/index.tsx",
+  "source": "src/index.tsx",
+  "files": [
+    "src",
+    "lib",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "prepare": "bob build",
+    "typecheck": "tsc --noEmit"
+  },
+  "peerDependencies": {
+    "react": ">=18.0.0",
+    "react-native": ">=0.72.0",
+    "react-native-reanimated": ">=3.0.0",
+    "react-native-gesture-handler": ">=2.0.0"
+  },
+  "devDependencies": {
+    "@types/react": "^19.0.0",
+    "react": "^19.0.0",
+    "react-native": "^0.80.0",
+    "react-native-builder-bob": "^0.40.0",
+    "typescript": "^5.8.0",
+    "@react-native/typescript-config": "^0.80.0"
+  },
+  "react-native-builder-bob": {
+    "source": "src",
+    "output": "lib",
+    "targets": [
+      "commonjs",
+      "module",
+      "typescript"
+    ]
+  },
+  "keywords": [
+    "react-native",
+    "carousel",
+    "vertical",
+    "swipe",
+    "deck",
+    "reanimated"
+  ],
+  "license": "MIT"
+}
