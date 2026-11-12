@@ -96,14 +96,4 @@ const styles = StyleSheet.create({
 - Keep `GestureHandlerRootView` at the application root.
 - Rebuild the native app after changing native dependencies or Babel configuration.
 
-## Publishing
 
-1. Change the package name in `package.json` if the chosen npm name is unavailable.
-2. Update the version.
-3. Run `npm install`.
-4. Run `npm run typecheck`.
-5. Run `npm pack --dry-run`.
-6. Run `npm login`.
-7. Run `npm publish --access public`.
-
-The package name must be unique on npm.
